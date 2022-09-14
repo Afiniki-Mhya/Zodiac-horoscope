@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.zodiac-items{
+    display: flex;
+    position: relative;
+    padding: 2rem;
+    min-height: 30rem;
+    max-width: 30rem;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    min-height: 20rem;
+    position: absolute;
+    transform: translateX(-200%);
+    transition: transform 600ms ease-in-out;
+   }
+
+.active{
+transform: translateX(0);
+}
+
+.previous{
+transform: translateX(200%);
+}
+
